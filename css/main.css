@@ -91,36 +91,141 @@ textarea {
     padding: 0.2em 0;
 }
 
+
+
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
 
-
-
-
 /* ##################################################################### */
 /* ##########################   SMARTPHONE   ########################### */
 /* ##################################################################### */
+/* Extra small devices (phones, less than 768px) */
+
+
+
+/*-------all the document-------*/
+*
+{
+    font-family: arial;
+    font-size: 0.975em;
+}
+
+
+/*-------only the header-------*/
+ul
+{
+    list-style-type: none;
+    display: flex;
+    align-items: flex-end;
+}
+
+nav ul {
+    justify-content: flex-end;
+}
+
+li {
+    margin-right: 5px;
+}
+
+
+a:link, a:visited
+{
+    color:#636262;
+    text-decoration: none;
+
+}
+
+a:hover
+{
+    color:black;
+}
+
+
+/*------only the body-------*/
+.logo
+{
+    text-align: center;
+    margin-top: 10%;
+}
+
+.SearchBarKit
+{
+    text-align: center;
+}
+
+#searchbar
+{
+    text-align: center;
+    margin-bottom: 5%;
+    width: 70%;
+}
+
+.button
+{
+    display:inline-block;
+    border: none;
+    background-color: #e4e4e4;
+    padding: 1%;
+    color:#636262;
+
+
+}
+
+/*------only the footer------*/
+
+
+ footer
+ {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #f2f2f2;
+    border-top: solid 1px #e4e4e4;
+ }
+
+ footer ul {
+    justify-content: center;
+ }
+
+ footer ul li {
+    margin-right: 8px;
+ }
+
+.LeftFooter, .RightFooter
+{
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
 
 
 /* ##################################################################### */
 /* ############################   TABLETS   ############################ */
 /* ##################################################################### */
-
-
+/* Small devices (tablets, 768px and up) */
+   @media (min-width: 768px) {
+/*same css as phone @queries*/
+   }
 
 /* ##################################################################### */
 /* ############################   DESKTOPS   ########################### */
 /* ##################################################################### */
+/* Medium devices (desktops, 992px and up) */
+   @media (min-width: 992px) {
 
-
+   }
 
 /* ##################################################################### */
 /* ########################   LARGE DESKTOPS   ######################### */
 /* ##################################################################### */
+/* Large devices (large desktops, 1200px and up) */
+   @media (min-width: 1200px) {
 
+   }
 
 
 
