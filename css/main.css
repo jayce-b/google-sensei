@@ -217,7 +217,19 @@ a:hover
 /* Medium devices (desktops, 992px and up) */
    @media (min-width: 992px) {
 
-   }
+footer
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer nav a
+{
+    margin: 0 15px;
+}
+
+}
 
 /* ##################################################################### */
 /* ########################   LARGE DESKTOPS   ######################### */
