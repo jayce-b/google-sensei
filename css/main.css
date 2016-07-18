@@ -118,7 +118,7 @@ ul
 {
     list-style-type: none;
     display: flex;
-    align-items: flex-end;
+    align-items: center;
 }
 
 nav ul {
@@ -208,7 +208,11 @@ a:hover
 /* ##################################################################### */
 /* Small devices (tablets, 768px and up) */
    @media (min-width: 768px) {
-/*same css as phone @queries*/
+
+#searchbar {
+    width: 50%;
+}
+
    }
 
 /* ##################################################################### */
@@ -227,6 +231,10 @@ footer
 footer nav a
 {
     margin: 0 15px;
+}
+
+#searchbar {
+    width: 40%;
 }
 
 }
